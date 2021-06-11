@@ -1,0 +1,71 @@
+/* CSS Document */
+
+body{
+	background-color: #252734;
+}
+.wrapper{
+	background-color: #252734;
+	color: aliceblue;
+}
+
+
+a{
+	color: aliceblue;
+	
+}
+.header-logo{
+	margin-top: 20px;
+}
+.h-mobile{
+	margin-top: 20px;
+	background-color: #252734;
+	text-align: center;
+}
+
+.head-text{
+	font-size: 30px;
+}
+
+.h-mobile .head-text{
+	font-size: 23px;
+}
+
+
+.main{
+	text-align: center;
+}
+
+.description{
+	font-size: 20px;
+	margin-top: 60px;
+}
+
+
+
+
+@media screen and (min-width: 1001px){
+	.links{
+	
+		position: absolute;
+		bottom: 10%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.link-item{font-size: 30px;}
+}
+
+@media screen and (max-width: 1000px){
+	.links{
+	
+		position: absolute;
+		bottom: 5%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.link-item{font-size: 14px;}
+}
+
+.footer{
+	position: absolute;
+	bottom: 5px;
+}
